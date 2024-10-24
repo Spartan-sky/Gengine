@@ -1,0 +1,10 @@
+^C:\USERS\SKYLA\SOURCE\VULKANENGINE\BUILD\CMAKEFILES\1F8A8B2BAA8D2789F6B778DF0D98C5AA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/skyla/source/VulkanEngine -BC:/Users/skyla/source/VulkanEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/skyla/source/VulkanEngine/build/VulkanEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

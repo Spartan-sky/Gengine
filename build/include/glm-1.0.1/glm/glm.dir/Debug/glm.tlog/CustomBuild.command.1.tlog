@@ -1,0 +1,10 @@
+^C:\USERS\SKYLA\SOURCE\VULKANENGINE\INCLUDE\GLM-1.0.1\GLM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/skyla/source/VulkanEngine -BC:/Users/skyla/source/VulkanEngine/build --check-stamp-file C:/Users/skyla/source/VulkanEngine/build/include/glm-1.0.1/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
