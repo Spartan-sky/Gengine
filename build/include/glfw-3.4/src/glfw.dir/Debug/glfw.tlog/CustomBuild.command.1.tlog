@@ -1,6 +1,6 @@
-^C:\USERS\SKYLA\SOURCE\VULKANENGINE\INCLUDE\GLFW-3.4\SRC\CMAKELISTS.TXT
+^C:\USERS\SKYLA\SOURCE\GENGINE\INCLUDE\GLFW-3.4\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/skyla/source/VulkanEngine -BC:/Users/skyla/source/VulkanEngine/build --check-stamp-file C:/Users/skyla/source/VulkanEngine/build/include/glfw-3.4/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/skyla/source/Gengine -BC:/Users/skyla/source/Gengine/build --check-stamp-file C:/Users/skyla/source/Gengine/build/include/glfw-3.4/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/skyla/source/VulkanEngine/include/glm-1.0.1/glm
+# Install script for directory: C:/Users/skyla/source/Gengine/include/glm-1.0.1/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/VulkanEngine")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GEngine")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
