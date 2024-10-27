@@ -28,3 +28,11 @@ target_link_libraries(GEngine glm::glm)
 find_package(Vulkan REQUIRED)
 
 target_link_libraries(GEngine Vulkan::Vulkan)
+
+# stb
+include_directories(include/stb)
+link_directories(include/stb) 
+
+# tinyObjectLoader
+include_directories(include/tinyObjectLoader)
+link_directories(include/tinyObjectLoader) 
